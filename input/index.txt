@@ -1,0 +1,27 @@
+..
+  restindex
+    crumb: Accueil
+    format: rest
+    encoding: utf-8
+    output-encoding: utf-8
+    page-description:
+       Accueil
+    /description
+  /restindex
+
+================================================
+Clément Delafargue, développeur Web et pédophile
+================================================
+
+Mes passions
+=======================
+Je suis un fervent défenseur du lol, des logiciels libres et de l'accessiblité
+
+Projets
+=======================
+* EklaBlog
+* Visitez mon blog !1!
+* he.catom.be
+
+
+
