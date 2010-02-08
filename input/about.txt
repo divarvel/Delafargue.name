@@ -1,0 +1,24 @@
+restindex 
+    format: rest
+    crumb: About this Website
+    page-title: About
+    template-encoding: utf8
+    page-description:
+        Some info about this website.
+    /description
+/restindex
+
+uservalues
+    language: en
+    display_crumbs: true
+    page_id: page_about
+/uservalues
+
+.. role:: raw-html(raw)
+    :format: html
+
+==================
+About this Website
+==================
+
+This website has been built using :raw-html:`<a href="http://www.voidspace.org.uk/python/rest2web/" hreflang="en" class="external">Rest2Web</a>`

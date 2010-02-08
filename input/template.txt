@@ -1,20 +1,25 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
 "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="<% language %>" xml:lang="<% language %>">
 <head>
     <title><% title %></title>
-    <meta http-equiv="Content-Type"
-        content="text/html; charset=<% final_encoding %>" />
-    <link rel="stylesheet"
-        href="<% path_to_root %>stylesheets/rest.css"
-        type="text/css" />
-    <link rel="stylesheet"
-        href="<% path_to_root %>css/main.css"
-        type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=<% final_encoding %>" />
+    <link rel="stylesheet" href="<% path_to_root %>resource/main.css" type="text/css" />
+    <link rel="start" href="<% path_to_root %>index.html" />
 </head>
 <body>
-
-<% body %>
-
+<div id="content">
+    <div id="header"><a href="/index.html">Clément Delafargue</a></div>
+    <#
+    if(display_crumbs == "true"):
+      print "<ul id=\"crumbs\">"
+      print_crumbs(breadcrumbs, divider='&nbsp;&gt;&nbsp;')
+      print "</ul>"
+    #>
+    
+    <div id="<% page_id %>" class="content"><% body %></div>
+    <# minibar(sections, intro='', subsect=False, liststart='<ul id="nav">', listend='</ul>') #>
+</div>
+<script type="text/javascript" src="<% path_to_root %>resource/script.js"></script>
 </body>
 </html>

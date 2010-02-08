@@ -1,0 +1,45 @@
+..
+  restindex
+    crumb: My Projects
+    format: rest
+    encoding: utf-8
+    output-encoding: utf-8
+    initialheaderlevel: 2
+    page-title: My Projects
+    page-description:
+       Here are some projects I've been working on
+    /description
+  /restindex
+  uservalues
+    language: en
+    display_crumbs: true
+    page_id: page_projects
+  /uservalues
+
+.. role:: raw-html(raw)
+    :format: html
+
+========
+Projects
+========
+
+Here are some projects I've been working on lately.
+
+EklaBlog
+--------
+Eklablog is a fully featured blog platform.
+
+This page is written in ReStructured Text markup. That's
+why it looks like *plain text*.
+
+This page lives at :raw-html:`<em><% pagepath %></em>`
+
+
+jDbT
+----
+jDbT is a set of tools designed to ease the pain of creating databases
+
+jPdT
+----
+jPdT is a set of tools designed to generate some code from a class diagram
+

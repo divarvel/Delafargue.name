@@ -1,0 +1,123 @@
+/* Site-wide modifications */
+img{
+  border: 0px;
+}
+
+a{
+  color: #000;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a[hreflang]:before{
+  content: "\5B" attr(hreflang) "\5D\A0";
+  font-weight: normal;
+  font-size: 0.8em;
+}
+
+a:hover{
+  color: #333333;
+  text-shadow: 2px 2px 5px #AAAAAA;
+}
+
+a:active, a:focus{
+  outline: 0px;
+}
+
+acronym{
+  border: 0px;
+  font-family: Georgia, Times, Serif;
+  font-size: 1.2em;
+}
+
+.external:after{
+  content: "\A0" url("/resource/url-external.png");
+  vertical-align: middle;
+}
+
+li{
+  list-style-type: none;
+}
+
+/* Body */
+body{
+  background-color: #AAA;
+  width: 800px;
+  margin: 10px auto;
+  color: #555555;
+  font-family: Helvetica, Arial, "Sans Serif";
+}
+
+/* Page content  */
+#content{
+  clear: both;
+  padding: 5px 20px;
+  border: 1px solid #111;
+  background-color: #EEE;
+  -moz-border-radius: 10px 0px 10px 0px;
+  -webkit-border-radius: 10px 0px 10px 0px;
+  border-radius: 10px 0px 10px 0px;
+  -moz-box-shadow: 10px 10px 10px 5px #555555;
+  -webkit-box-shadow: 10px 10px 10px 5px #555555;
+  box-shadow: 10px 10px 10px 5px #555555;
+}
+
+#header{
+  text-shadow: 2px 2px 5px #AAA;
+  font-size: 4em;
+  text-align: center;
+}
+
+#crumbs{
+  border-top: 2px solid black;
+}
+
+#crumbs li{
+  list-style-type: none;
+  float: left;
+}
+
+.content{
+  clear: both;
+  border-top: 2px solid black;
+  margin-top: 2px;
+  padding: 10px;
+}
+
+h1{
+  font-size: 3em;
+  border-bottom: 1px solid #222;
+}
+
+h1, h2, h3{
+  color: #222;
+}
+
+#nav{
+  clear: both;
+  border-top: 2px solid black;
+  height: 2em;
+}
+
+#nav li{
+  list-style-type: none;
+  float: left;
+  text-align: center;
+  padding: 10px;
+}
+
+
+/* Page-specific styles */
+#page_index p{
+  font-size: 2em;
+}
+
+#page_index .photo{
+  float: left;
+  margin: 10px;
+}
+
+#page_contact .vcard{
+  border: 1px solid black;
+  padding: 5px;
+}

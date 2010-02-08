@@ -1,0 +1,29 @@
+restindex 
+    format: html
+    crumb: Contact Information
+    template-encoding: utf8
+    page-description:
+        Contact Information.
+    /description
+/restindex
+
+uservalues
+    language: en
+    display_crumbs: true
+    page_id: page_contact
+/uservalues
+
+<div id="hcard-clement-delafargue" class="vcard">
+<img style="float:left; margin-right:4px" src="http://clement.delafargue.name/resource/photo_t_s.jpg" alt="photo of " class="photo"/>
+ <a class="url fn" href="http://clement.delafargue.name">Clément Delafargue</a>
+ <div class="org">Eklablog</div>
+ <a class="email" href="mailto:clement@eklaweb.com">clement@eklaweb.com</a>
+ <div class="adr">
+  <span class="locality">Nantes</span>
+
+  <span class="country-name">France</span>
+
+ </div>
+ <div class="tel">+33 6 16 88 85 24</div>
+</div>
+

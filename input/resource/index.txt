@@ -1,0 +1,9 @@
+restindex
+  include: no
+  build: no
+  file: photo_t_s.jpg
+  file: photo_s.jpg
+  file: url-external.png
+  file: script.js
+  file: main.css
+/restindex
