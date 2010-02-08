@@ -1,7 +1,7 @@
 ..
   restindex
     crumb: Index
-    format: html
+    format: rest
     encoding: utf-8
     output-encoding: utf-8
     page-description:
@@ -12,16 +12,17 @@
     language: en
     display_crumbs: false
     page_id: page_index
+    page_title: 
   /uservalues
 
 
-<img src="/resource/photo_s.jpg" alt= "Photo of Clément Delafargue" class="photo" />
-<p>Hi ! I'm a <strong>Web Developer</strong>, <strong>Entrepreneur</strong> &amp; <acronym title="Free and Open Source Software">FOSS</acronym> enthusiast.<br /><br />
+{img;resource/photo_s.jpg;Photo of Clément Delafargue;photo}
 
-I've co-founded  <a href="http://www.eklaweb.com" hreflang="fr" class="external">Eklaweb</a>  with  <a href="http://www.skreo.net" hreflang="fr" class="friend colleague external">Godefroy de Compreignac</a></p>
+Hi ! I'm a **Web Developer**, **Entrepreneur** & {acro;FOSS;Free and Open Source Software} enthusiast.
 
-<ul>
-<li><a href="http://www.divarvel.fr" hreflang="fr" class="external">Read my blog</a></li>
-<li><a href="http://www.twitter.com/divarvel" hreflang="fr" class="external">Follow me on Twitter</a></li>
-</ul>
+I'm currently working at  {link;http://www.eklaweb.com;Eklaweb;external;fr}, which I've co-founded with {link;http://www.skreo.net;Godefroy de Compreignac;friend colleague external;fr}
+
+ * {link;http://www.divarvel.fr;Read my Blog;external;fr}
+ * {link;http://www.twitter.com/divarvel;Follow me on Twitter;external;fr}
+
 

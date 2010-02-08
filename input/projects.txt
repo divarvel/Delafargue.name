@@ -1,10 +1,10 @@
 ..
   restindex
     crumb: My Projects
-    format: rest
+    format: html
     encoding: utf-8
     output-encoding: utf-8
-    initialheaderlevel: 2
+    initialheaderlevel: 3
     page-title: My Projects
     page-description:
        Here are some projects I've been working on
@@ -16,30 +16,18 @@
     page_id: page_projects
   /uservalues
 
-.. role:: raw-html(raw)
-    :format: html
+<h2>Projects</h2>
 
-========
-Projects
-========
+<p>Here are some projects I've been working on lately.</p>
 
-Here are some projects I've been working on lately.
+<h3>EklaBlog</h3>
 
-EklaBlog
---------
-Eklablog is a fully featured blog platform.
+<p>Eklablog is a fully featured blog platform.<br />
+Try it out ! <a href="http://www.eklablog.com" hreflang="fr" class="external">www.eklablog.com</a>
+</p>
+<h3>jPdT</h3>
 
-This page is written in ReStructured Text markup. That's
-why it looks like *plain text*.
-
-This page lives at :raw-html:`<em><% pagepath %></em>`
-
-
-jDbT
-----
-jDbT is a set of tools designed to ease the pain of creating databases
-
-jPdT
-----
-jPdT is a set of tools designed to generate some code from a class diagram
+<p>jPdT is a set of tools designed to generate code and class diagrams from a super-lightweight <acronym title="Yet Another Markup Language">YAML</acronym>-based syntax.<br />
+<a href="http://bitbucket.org/kphoen/jpdt/" class="external">jPdT on BitBucket</a>
+</p>
 

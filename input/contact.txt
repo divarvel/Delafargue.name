@@ -13,6 +13,8 @@ uservalues
     page_id: page_contact
 /uservalues
 
+<h2>Let's get in touch !</h2>
+
 <div id="hcard-clement-delafargue" class="vcard">
 <img style="float:left; margin-right:4px" src="http://clement.delafargue.name/resource/photo_t_s.jpg" alt="photo of " class="photo"/>
  <a class="url fn" href="http://clement.delafargue.name">Clément Delafargue</a>

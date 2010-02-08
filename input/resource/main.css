@@ -17,7 +17,7 @@ a[hreflang]:before{
 
 a:hover{
   color: #333333;
-  text-shadow: 2px 2px 5px #AAAAAA;
+  text-shadow: 2px 2px 5px #CCC;
 }
 
 a:active, a:focus{
@@ -57,15 +57,16 @@ body{
   -moz-border-radius: 10px 0px 10px 0px;
   -webkit-border-radius: 10px 0px 10px 0px;
   border-radius: 10px 0px 10px 0px;
-  -moz-box-shadow: 10px 10px 10px 5px #555555;
-  -webkit-box-shadow: 10px 10px 10px 5px #555555;
-  box-shadow: 10px 10px 10px 5px #555555;
+  -moz-box-shadow: 10px 10px 10px 5px #888;
+  -webkit-box-shadow: 10px 10px 10px 5px #888;
+  box-shadow: 10px 10px 10px 5px #888;
 }
 
 #header{
   text-shadow: 2px 2px 5px #AAA;
   font-size: 4em;
   text-align: center;
+  margin: 0px;
 }
 
 #crumbs{
@@ -84,8 +85,8 @@ body{
   padding: 10px;
 }
 
-h1{
-  font-size: 3em;
+.content h2{
+  font-size: 2.5em;
   border-bottom: 1px solid #222;
 }
 
@@ -115,6 +116,11 @@ h1, h2, h3{
 #page_index .photo{
   float: left;
   margin: 10px;
+}
+
+#page_index ul{
+  font-size: 1.5em;
+  margin-left: 160px;
 }
 
 #page_contact .vcard{
