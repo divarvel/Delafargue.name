@@ -1,0 +1,21 @@
+restindex 
+    format: html
+    crumb: À propos
+    page-title: À propos
+    template-encoding: utf8
+    initialheaderlevel: 3
+    page-description:
+        Informations diverses.
+    /description
+/restindex
+
+uservalues
+    language: fr
+    display_crumbs: true
+    page_id: page_about
+/uservalues
+
+<h2>À propos</h2>
+
+<p>Ce site utilise l'outil <a href="http://www.voidspace.org.uk/python/rest2web/" class="external" hreflang="en">Rest2Web</a></p>
+

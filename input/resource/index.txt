@@ -3,6 +3,8 @@ restindex
   build: no
   file: photo_t_s.jpg
   file: photo_s.jpg
+  file: photo2_s.jpg
+  file: bg.jpg
   file: url-external.png
   file: script.js
   file: main.css

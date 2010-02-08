@@ -7,8 +7,7 @@ if (window.addEventListener) {
       // Trucs importants
       var header = document.getElementById("header");
       header.getElementsByTagName("a")[0].innerHTML = "Clément 'Kevin' Delafargue";
-      
-      
+      document.body.className = "konami";
       
       sequence = [];
     }

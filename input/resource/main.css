@@ -127,3 +127,18 @@ h1, h2, h3{
   border: 1px solid black;
   padding: 5px;
 }
+
+#page_contact .vcard .photo{
+  float: left;
+  margin-right: 4px;
+}
+
+
+/* Easter egg ^^ */
+.konami{
+  background: url("/resource/photo2_s.jpg");
+}
+
+.konami #content{
+  background: url("/resource/bg.jpg");
+}

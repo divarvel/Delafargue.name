@@ -1,6 +1,6 @@
 restindex 
     format: html
-    crumb: Contact Information
+    crumb: Me Contacter
     template-encoding: utf8
     page-description:
         Contact Information.
@@ -8,15 +8,15 @@ restindex
 /restindex
 
 uservalues
-    language: en
+    language: fr
     display_crumbs: true
     page_id: page_contact
 /uservalues
 
-<h2>Let's get in touch !</h2>
+<h2>Contactez moi !</h2>
 
 <div id="hcard-clement-delafargue" class="vcard">
-<img src="http://clement.delafargue.name/resource/photo_t_s.jpg" alt="Photo of Clément Delafargue" class="photo"/>
+<img src="http://clement.delafargue.name/resource/photo_t_s.jpg" alt="Photo de Clément Delafargue" class="photo"/>
  <a class="url fn" href="http://clement.delafargue.name">Clément Delafargue</a>
  <div class="org">Eklablog</div>
  <a class="email" href="mailto:clement@eklaweb.com">clement@eklaweb.com</a>

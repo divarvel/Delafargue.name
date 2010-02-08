@@ -1,0 +1,33 @@
+..
+  restindex
+    crumb: Mes projets
+    format: html
+    encoding: utf-8
+    output-encoding: utf-8
+    initialheaderlevel: 3
+    page-title: Mes projets
+    page-description:
+       Voici quelques projets sur lesquels j'ai travaillé
+    /description
+  /restindex
+  uservalues
+    language: fr
+    display_crumbs: true
+    page_id: page_projects
+  /uservalues
+
+<h2>Projets</h2>
+
+<p>Voici quelques projets sur lesquels j'ai travaillé.</p>
+
+<h3>EklaBlog</h3>
+
+<p>Eklablog est une plate-forme de blogs complète et avant-gardiste.<br />
+Jetez-y un coup d'&oe;il <a href="http://www.eklablog.com" hreflang="fr" class="external">www.eklablog.com</a>
+</p>
+<h3>jPdT</h3>
+
+<p>jPdT permet de générer du code et des diagrammes de classes à partir d'une syntaxe ultra-légère basée sur <acronym title="Yet Another Markup Language">YAML</acronym>.<br />
+<a href="http://bitbucket.org/kphoen/jpdt/" class="external">Dépot jPdT sur BitBucket</a>
+</p>
+
