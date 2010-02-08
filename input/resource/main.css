@@ -69,6 +69,12 @@ body{
   margin: 0px;
 }
 
+#lang_select{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
 #crumbs{
   border-top: 2px solid black;
 }

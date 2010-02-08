@@ -11,6 +11,11 @@
 <div id="content">
     <h1 id="header"><a href="/index.html">Clément Delafargue</a></h1>
     <#
+    if(language == "en" or language == ""):
+      print '<a href="/fr" hreflang="fr" id="lang_select">Psst ! You can read this in French</a>'
+    else:
+      print '<a href="/" hreflang="en" id="lang_select">Version anglaise</a>'
+    
     if(display_crumbs == "true"):
       print "<ul id=\"crumbs\">"
       print_crumbs(breadcrumbs, divider='&nbsp;&gt;&nbsp;')
