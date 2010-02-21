@@ -16,7 +16,7 @@
   /uservalues
 
 
-{img;resource/photo_s.jpg;Photo of Clément Delafargue;photo}
+{img;resource/clement_delafargue.jpg;Photo of Clément Delafargue;photo}
 
 Hi ! I'm a **Web Developer**, **Entrepreneur** & {acro;FOSS;Free and Open Source Software} enthusiast.
 

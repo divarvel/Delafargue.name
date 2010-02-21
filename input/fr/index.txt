@@ -17,7 +17,7 @@
   /uservalues
 
 
-{img;../resource/photo_s.jpg;Photo de Clément Delafargue;photo}
+{img;../resource/clement_delafargue.jpg;Photo de Clément Delafargue;photo}
 
 Salut ! Je suis **Développeur Web**, **Entrepreneur** & passionné par les **Logiciels Libres**.
 

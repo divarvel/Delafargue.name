@@ -16,7 +16,7 @@ uservalues
 <h2>Let's get in touch !</h2>
 
 <div id="hcard-clement-delafargue" class="vcard">
-<img src="http://clement.delafargue.name/resource/photo_t_s.jpg" alt="Photo of Clément Delafargue" class="photo"/>
+<img src="resource/clement_delafargue_t.jpg" alt="Photo of Clément Delafargue" class="photo"/>
  <a class="url fn" href="http://clement.delafargue.name">Clément Delafargue</a>
  <div class="org">Eklablog</div>
  <a class="email" href="mailto:clement@eklaweb.com">clement@eklaweb.com</a>
